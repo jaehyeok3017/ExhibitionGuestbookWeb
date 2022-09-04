@@ -1,0 +1,30 @@
+.main {
+}
+
+.grid {
+    /*width: 100%;*/
+    /*display: grid;*/
+    /*grid-template-columns: repeat(3, 1fr);*/
+    /*gap:28px;*/
+    /*@media screen and (max-width: 718px) {*/
+    /*    gap:3px;*/
+    /*}*/
+}
+
+/*.CardContainer {*/
+/*    width: 10em;*/
+/*    height: 5.43em;*/
+/*    position: relative;*/
+/*}*/
+
+/*.CardContainer::after {*/
+/*    display: block;*/
+/*    content: "";*/
+/*    padding-bottom: 100%;*/
+/*}*/
+
+.CardBox {
+    width: 20em;
+    height: 10.86em;
+    padding: 2rem;
+}
