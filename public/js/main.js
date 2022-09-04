@@ -67,3 +67,17 @@ setInterval(() => {
 
 }, 1000 * 60 * 3)
 console.log(1111)
+
+listAll(storageRef).then( (res) => {
+       let imageList = res.items
+        imageList.sort(sortName)
+        console.log(imageList)
+        let iner ='';
+
+
+        ffff(imageList);
+
+
+    }).catch((err) => {
+        console.log(err)
+    })
